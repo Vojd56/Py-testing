@@ -1,7 +1,7 @@
+import pytest
+from src import calculator
 
-import calculator
-
-@pytest.mark.paremetrize(
+@pytest.mark.parametrize(
     "a, b, expected",
     [
         (1, 2, 3),
